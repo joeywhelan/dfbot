@@ -1,0 +1,58 @@
+<!-- Slightly modified version of the vanilla cometd demo html file -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DialogFlow Chat</title>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Varela+Round">
+    <link rel="stylesheet" type="text/css" href="chat.css">
+    <script type="text/javascript" src="dflow.js"></script>
+    <script type="text/javascript" src="chat.js"></script>
+</head>
+
+<body>
+
+<h1>DialogFlow Chat Demo</h1>
+
+<div id="chatroom">
+    <div id="chat"></div>
+    <div id="input">
+        <div id="start">
+            <table>
+                <tbody>
+                <tr>
+                    <td>
+                        First Name
+                    </td>
+                    <td>
+                        <input id="firstName" type="text" value="John" />
+                    </td>
+                    
+                </tr>
+                <tr>                  
+                    <td>
+                        Last Name
+                    </td>
+                    <td>
+                        <input id="lastName" type="text" value="Doe" />
+                    </td>
+                    <td>
+                        <button id="startButton" class="button">Start</button>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="started">
+            Chat:
+            &nbsp;
+            <input id="phrase" type="text" />
+            <button id="sendButton" class="button">Send</button>
+            <button id="leaveButton" class="button">Leave</button>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
