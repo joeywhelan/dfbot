@@ -1,0 +1,60 @@
+/* slightly modified version of the cometd vanilla demo css*/
+@CHARSET "UTF-8";
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em;
+    font-family: "Varela Round", sans-serif;
+    color: #333;
+}
+
+input {
+    margin: 0;
+    font-family: "Varela Round", sans-serif;
+}
+
+button {
+    font-family: "Varela Round", sans-serif;
+}
+
+a:hover, a:visited {
+    color: #333;
+}
+a:active {
+    color: #E52;
+}
+
+table td {
+    padding: 0.2em;
+}
+
+#chatroom {
+    background-color: #ffffff;
+}
+
+#chat {
+    float: left;
+    width: 50em;
+    height: 16em;
+    overflow: auto;
+    background-color: #f0f0f0;
+}
+
+#input {
+    clear: both;
+    padding: 0.2em;
+    border-top: 1px solid black;
+    background-color: #efebe7;
+}
+
+#phrase {
+    width: 28em;
+}
+
+#firstName {
+    width: 20em;
+}
+
+#lastName {
+    width: 20em;
+}
