@@ -1,2 +1,2 @@
 # dfbot
-Sample Google DialogFlow bot with webhook and web client code.
+Google Cloud Function webhook and web client code for a simple chatbot.
