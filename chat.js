@@ -52,6 +52,8 @@ window.addEventListener('DOMContentLoaded', function() {
                 return;
             }
             
+            /**this is inherently insecure as the key is exposed on the client side.  For a production app
+	you'd store the key server-side and proxy the API requests through that server */
             _dflow = new DFlow("yourtoken");
             hide(getId('start'));
             show(getId('started'));
